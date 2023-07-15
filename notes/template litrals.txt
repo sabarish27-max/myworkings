@@ -1,0 +1,14 @@
+import React from "react";
+import  ReactDOM  from "react-dom";
+let name ="sabarish"
+let place ='Coimbatore'
+let hobby ='learning new things'
+let image ="	https://cdn.pixabay.com/photo/2016/11/21/17/44/elderly-1846763_1280.jpg"
+ReactDOM.render(
+  <>
+  <p>{`hello everyone i am ${name} and i am from ${place} and my hobby is ${hobby} and see my cool images that i took `}<img src ={image} alt="coimbatore"></img></p>
+  
+  </>,
+  document.getElementById('root')
+
+);

@@ -1,0 +1,26 @@
+import React from 'react';
+import RecatDOM from 'react-dom'
+// importing css files 
+import '../src/components/styles/index.css';
+const title ={
+backgroundColor:'gray',
+textTransform:'capitalize',
+fontFamily:'verdana',
+borderRadius:'1vh',
+padding:'2vh'
+
+} //object this is one methode and another methode is 
+RecatDOM.render(
+
+  <>
+  <h3 style={{backgroundColor:'orangered',
+textTransform:'capitalize',
+fontFamily:'verdana',
+borderRadius:'1vh',
+color:'white',
+padding:'2vh'}}>Another way of styling inline</h3>
+  <h2 style={title}> E-Commerce WebApplications</h2> 
+  {/* // inline and internal styleing */}
+  </>,
+  document.getElementById('root')
+)
