@@ -1,0 +1,10 @@
+body{
+    min-height:120vh;
+}
+img{
+ height:300px;
+}
+.cardtext{
+    font-family: 'Ysabeau Office', sans-serif;
+    text-align: justify;
+}

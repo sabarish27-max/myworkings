@@ -2,18 +2,16 @@ import React from 'react'
 const Importexport=()=>{
     return(
         <>
-<h1>i am a app component</h1>
-
+        <h2>my name is sabarish </h2>
         </>
+
     )
 }
-
-const importfunction=()=>{
-    return(
-        <h1>hello</h1>
-    )
-
-}
-const variable ="how to import and export a varaible in react"
+const color="balck";
 export default Importexport;
-export {variable,importfunction}
+export {color,newfunction}
+const newfunction=(data1,data2)=>{
+   const completedata=`i am from ${data1} and my favarate sport is a ${data2}`
+   return completedata;
+
+}

@@ -1,14 +1,23 @@
 import React from 'react';
-import Importexport from './Importexport.js'
-import { variable,importfunction } from './Importexport.js';
+// import Importexport,{color,newfunction} from './Importexport.js'
+// import Bootstrap from './Bootstrap.js';
+
+import Navbar from './Navabar.js';
+import Footer from './Footer.js';
+import Wholecards from './Wholecards.js';
+
+
+
 const App=()=>{
-    const template="also i am triing to print template litrals"
+   
     return(
         <>
-<Importexport />
-<h1>{`hello iam just trying the import and export in react ${variable} ,${template}`}</h1>
-{/* <h2>{`Here is the expmle for importing and exporting function in the react ${importfunction()}`}</h2> */}
-<h1>{importfunction()}</h1>
+        <Navbar />
+        <Wholecards />
+        
+      
+       <Footer />
+       
         </>
     )
 }
