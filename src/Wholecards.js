@@ -2,6 +2,7 @@ import Carsprops from './Carsprops.js';
 import Bootstrapcards, { title1 } from './Bootstrapcards.js';
 import React from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import data from './Data.js'
 
 const Wholecards = () => {
   return (
@@ -22,28 +23,28 @@ const Wholecards = () => {
             imgsrc="https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/1/flower-power-watercolor-olga-shvartsur.jpg"
           />
           <Carsprops
-            title="Butterfly"
-            text="this is sample for 1st card"
-            imgsrc="https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/1/1-zen-fox-roeselien-raimond.jpg"
-            btn="Readmore"
+            title={data[0].title}
+            text={data[0].text}
+            imgsrc={data[0].imgsrc}
+            btn={data[0].btn}
           />
           <Carsprops
-            title="Bull"
-            text="this is sample for 2nd card"
-            imgsrc="https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/3/big-smoke-eric-fan.jpg"
-            btn="Readmore"
+           title={data[1].title}
+           text={data[1].text}
+           imgsrc={data[1].imgsrc}
+           btn={data[1].btn}
           />
           <Carsprops
-            title="Rabbit"
-            text="this is sample for 3rd card"
-            imgsrc="https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/3/welcome-spring-lori-deiter.jpg"
-            btn="Readmore"
+            title={data[2].title}
+            text={data[2].text}
+            imgsrc={data[2].imgsrc}
+            btn={data[2].btn}
           />
           <Carsprops
-            title="lion"
-            text="this is sample for 4th card"
-            imgsrc="https://render.fineartamerica.com/images/images-profile-flow/400/images-medium-large-5/lioness-displaying-dangerous-teeth-in-a-rainstorm-johan-swanepoel.jpg"
-            btn="Readmore"
+           title={data[3].title}
+           text={data[3].text}
+           imgsrc={data[3].imgsrc}
+           btn={data[3].btn}
           />
         </div>
       </div>
