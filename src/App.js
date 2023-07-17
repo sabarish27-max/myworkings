@@ -5,6 +5,7 @@ import React from 'react';
 import Navbar from './Navabar.js';
 import Footer from './Footer.js';
 import Wholecards from './Wholecards.js';
+import Table from './Table.js';
 
 
 
@@ -14,6 +15,7 @@ const App=()=>{
         <>
         <Navbar />
         <Wholecards />
+        <Table />
         
       
        <Footer />

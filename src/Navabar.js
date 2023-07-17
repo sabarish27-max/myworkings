@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">Navbar</a>
+        <a className="navbar-brand" href="">Navbar</a>
         <button
           className="navbar-toggler"
           type="button"
@@ -22,7 +22,7 @@ function Navbar() {
               <a className="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Link</a>
+              <a className="nav-link" href="">Link</a>
             </li>
             <li className="nav-item dropdown">
               <a

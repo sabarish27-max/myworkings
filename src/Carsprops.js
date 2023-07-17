@@ -2,7 +2,7 @@ import React from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 const Carsprops = (props) => {
-  console.log(props);
+ 
   return (
     <>
       
@@ -18,8 +18,10 @@ const Carsprops = (props) => {
               </div>
             </div>
           </div>
+          
         
     </>
+    
   );
 };
 
